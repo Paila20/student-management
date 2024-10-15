@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 interface StudentFormProps {
   addStudent: (student: Student) => void;
 }
-
+ 
 interface Student {
   id: number;
   name: string;

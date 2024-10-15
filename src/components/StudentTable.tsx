@@ -51,10 +51,10 @@ const StudentTable: React.FC<StudentTableProps> = ({ students, deleteStudent, ed
               <td className="border  text-center sm:p-0">{student.grade}</td>
               <td className="border text-center sm:p-0">{student.enrollmentStatus ? 'Active' : 'Inactive'}</td>
               <td className="border text-center sm:p-0">
-                <button onClick={() => handleEdit(student)} className="bg-yellow-500 text-white  rounded mr-2">
+                <button onClick={() => handleEdit(student)} className="bg-yellow-500 text-white text-xs p-0 rounded mr-2">
                   Edit
                 </button>
-                <button onClick={() => deleteStudent(student.id)} className="bg-red-500 text-white  rounded">
+                <button onClick={() => deleteStudent(student.id)} className="bg-red-500 text-white text-xs p-0 rounded">
                   Delete
                 </button>
               </td>
