@@ -34,12 +34,12 @@ const StudentTable: React.FC<StudentTableProps> = ({ students, deleteStudent, ed
       <table className="table w-full border-collapse  ">
         <thead>
           <tr>
-            <th className="border sm:p-0 text-xs">ID</th>
-            <th className="border sm:p-0 text-xs">Name</th>
-            <th className="border sm:p-0 text-xs">Age</th>
-            <th className="border sm:p-0 text-xs">Grade</th>
-            <th className="border sm:p-0 text-xs">Enrollment Status</th>
-            <th className="border sm:p-0 text-xs">Actions</th>
+            <th className="border p-1 sm: text-xs">ID</th>
+            <th className="border p-1 sm: text-xs">Name</th>
+            <th className="border p-1 sm: text-xs">Age</th>
+            <th className="border p-1 sm: text-xs">Grade</th>
+            <th className="border p-1 sm: text-xs">Enrollment Status</th>
+            <th className="border p-1 sm: text-xs">Actions</th>
           </tr>
         </thead>
         <tbody>
